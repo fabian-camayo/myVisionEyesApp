@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="titulo">
+    <ion-title>
+      My Vision Eyes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header class="detectado">
+    <ion-label>{{detectado}}</ion-label>
+  </ion-header>
+     <!-- Botón para grabar -->
+  <ion-button class="boton-camara" (click)="grabarVideo()">
+    <!-- Icono de cámara de ionicons -->
+    <ion-icon name="camera" slot="icon-only" size="large"></ion-icon>
+  </ion-button>
+  <!-- ion-footer para mostrar el label al final -->
+  <ion-footer class="copyright">
+    <ion-label>&copy; Unimayor | 2023 Todos los derechos reservados</ion-label>
+  </ion-footer>
+</ion-content>

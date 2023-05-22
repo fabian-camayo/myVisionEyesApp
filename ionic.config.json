@@ -1,0 +1,12 @@
+{
+  "name": "myVisionEyesApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
